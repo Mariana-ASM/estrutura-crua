@@ -1,4 +1,52 @@
 body{
-    font-family: cursive;
-    font-size: 17px
-    ;
+    font-family: arial; 
+    font-size: 17px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    text-decoration: solid;
+    text-align: center;
+    font-size: 20px;
+    font-family: serif;
+  }
+
+  h5 {
+    color: blue;
+    text-align: center;
+    font-size: medium;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  h6 {
+    font-family: verdana;
+    color: #d53c3c;
+    text-align: center;
+}
+
+  p {
+    text-align: center;
+    color: aqua;
+    text-shadow: #ef5252;
+  }
+
+  li :first-child {
+    background-color: rgb(248, 176, 83);
+    color: #0b0101;
+  }
+
+  li :not(:first-child) {
+    background-color: bisque;
+    color: #d53c3c;
+  }
+  
+  .list-item-big {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
